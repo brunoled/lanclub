@@ -12,7 +12,7 @@
         hr {
             background-color: #707070;
         }
-        h5, h4 {
+        h5, h4, h3, h2, h1 {
             color: #707070;
         }
     </style>
@@ -59,10 +59,6 @@
                     </ul>
 
                 </div>
-
-
-                <hr class="clearfix w-100 d-md-none pb-3">
-
 
                 <div class="col-md-4 mb-md-0 mb-3">
 
