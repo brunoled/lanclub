@@ -2,9 +2,8 @@
 
 @section('body')
 
+    <br>
     <div class="container">
-
-        <br>
         <div class="row justify-content-center">
             <h1>Sobre Nós</h1>
         </div>
@@ -45,7 +44,7 @@
         </div>
 
     </div>
-<br>
+    <br>
     <br>
 
 @endsection

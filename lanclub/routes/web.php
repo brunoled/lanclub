@@ -16,5 +16,25 @@ Route::get('/', function () {
 });
 
 Route::get('/sobre-nos', function(){
-   return view('sobrenos');
+    return view('sobrenos');
+});
+
+Route::get('/fale-conosco', function(){
+    return view('faleconosco');
+});
+
+Route::get('/seja-franqueado', function(){
+    return view('seja-franqueado');
+});
+
+Route::get('/eventos', function(){
+    return view('eventos');
+});
+
+Route::get('/login', function(){
+    return view('login');
+});
+
+Route::get('/login-franqueado', function(){
+    return view('login-franqueado');
 });

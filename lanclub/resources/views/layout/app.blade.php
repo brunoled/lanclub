@@ -12,8 +12,11 @@
         hr {
             background-color: #707070;
         }
-        h5, h4, h3, h2, h1 {
-            color: #707070;
+        h5, h4, h3, h2, h1, label {
+            color: #ffffff;
+        }
+        #buscar{
+            background-color: #171626;
         }
     </style>
 </head>
@@ -45,10 +48,14 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!">Sistema do Franqueado</a>
+                            @guest
+                            <a href="/login-franqueado">Sistema do Franqueado</a>
+                            @else
+                            <a href="/franqueado">Sistema do Franqueado</a>
+                            @endguest
                         </li>
                         <li>
-                            <a href="#!">Sobre Nós</a>
+                            <a href="/sobre-nos">Sobre Nós</a>
                         </li>
                         <li>
                             <a href="#!">A Equipe</a>
@@ -68,7 +75,7 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!">Seja um Franqueado</a>
+                            <a href="/seja-franqueado">Seja um Franqueado</a>
                         </li>
                         <li>
                             <a href="#!">Suporte</a>

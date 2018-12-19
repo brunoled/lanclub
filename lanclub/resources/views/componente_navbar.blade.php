@@ -34,7 +34,7 @@
                 </li>
                 <li>
                     <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar" id="buscar">
                     </form>
                 </li>
 
