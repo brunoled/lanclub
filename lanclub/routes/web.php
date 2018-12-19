@@ -35,6 +35,14 @@ Route::get('/login', function(){
     return view('login');
 });
 
+Route::get('/cadastrar-franqueado', function(){
+    return view('cadastro-franqueado');
+});
+
 Route::get('/login-franqueado', function(){
     return view('login-franqueado');
+});
+
+Route::get('/cadastrar', function(){
+    return view('cadastro');
 });

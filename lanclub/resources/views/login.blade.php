@@ -11,7 +11,7 @@
             <hr style="width: 25%;">
         </div>
         <div class="row justify-content-center">
-            <h5>Logue-se no sistema para ter acesso a suas estatísticas e para cadastrar-se nos eventos.</h5>
+            <h5>Logue-se no sistema para ter acesso a suas estatísticas e para comprar ingressos para os eventos.</h5>
         </div>
 
         <br>
