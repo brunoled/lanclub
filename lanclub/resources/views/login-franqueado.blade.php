@@ -47,7 +47,7 @@
             </div>
             <br>
             <div class="row justify-content-center">
-                <a href="/cadastrar-franqueado" class="btn btn-lg btn-success">Cadastrar</a>
+                <a href="http://lanclub.com.br/lanclub/public/cadastrar-franqueado" class="btn btn-lg btn-success">Cadastrar</a>
             </div>
 
         </div>

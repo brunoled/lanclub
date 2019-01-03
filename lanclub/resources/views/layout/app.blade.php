@@ -49,9 +49,9 @@
                     <ul class="list-unstyled">
                         <li>
                             @guest
-                            <a href="/login-franqueado">Sistema do Franqueado</a>
+                            <a href="http://lanclub.com.br/lanclub/public/login-franqueado">Sistema do Franqueado</a>
                             @else
-                            <a href="/franqueado">Sistema do Franqueado</a>
+                            <a href="http://lanclub.com.br/lanclub/public/franqueado">Sistema do Franqueado</a>
                             @endguest
                         </li>
                         <li>
@@ -75,7 +75,7 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="/seja-franqueado">Seja um Franqueado</a>
+                            <a href="http://lanclub.com.br/lanclub/public/seja-franqueado">Seja um Franqueado</a>
                         </li>
                         <li>
                             <a href="#!">Suporte</a>

@@ -30,7 +30,7 @@
 
 
         <div class="row justify-content-center">
-            <a href="/cad-franqueado" class="btn btn-lg btn-primary">Seja um franqueado</a>
+            <a href="http://lanclub.com.br/lanclub/public/cad-franqueado" class="btn btn-lg btn-primary">Seja um franqueado</a>
         </div>
 
 

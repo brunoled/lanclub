@@ -2,6 +2,8 @@
 
 @section('body')
 
+    <br>
+    <br>
     <div class="container">
         <div id="carroselEventos" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -40,15 +42,6 @@
 
         <br>
         <br>
-
-        <div id="proximosEventos">
-            <h4>Próximos Eventos</h4>
-
-
-            <hr>
-
-
-        </div>
     </div>
 
 
