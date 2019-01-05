@@ -15,8 +15,19 @@
         h5, h4, h3, h2, h1, label {
             color: #ffffff;
         }
+        #sbtext{
+            padding-bottom: 10px;
+            padding-top: 25px;
+            text-align: center;
+        }
         #buscar{
             background-color: #171626;
+        }
+        p{
+            color: #ffffff;
+        }
+        .card-body{
+            background-color: #191730;
         }
     </style>
 </head>
@@ -107,6 +118,8 @@
 
 
 <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="{{asset('animatescroll.js/animatescroll.js')}}"></script>
 
 @hasSection('javascript')
     @yield('javascript')

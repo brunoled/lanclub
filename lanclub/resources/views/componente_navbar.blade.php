@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark rounded" style="background-color: #171626">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark rounded" style="background-color: #171626">
     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse"
             data-target="#navbar" aria-controls="navbar"
             aria-expanded="false" aria-label="Toggle navigation"><img src="{{ asset('logo.png') }}" width="112" height="28"></button>
@@ -18,16 +18,16 @@
             {{--@else--}}
             @guest
                 <li @if($current=="home")class="nav-item active" @else class="nav-item" @endif>
-                    <a class="nav-link" href="http://lanclub.com.br/lanclub/public/"><span class="oi oi-home"></span> Home</a>
+                    <a class="nav-link" href="#" onclick="$('.home').animatescroll();"><span class="oi oi-home"></span> Home</a>
                 </li>
                 <li @if($current=="sobre_nos")class="nav-item active" @else class="nav-item" @endif>
-                    <a class="nav-link" href="http://lanclub.com.br/lanclub/public/sobre-nos"><span class="oi oi-question-mark"></span> Sobre Nós</a>
+                    <a class="nav-link" href="#" onclick="$('.sobre-nos').animatescroll();"><span class="oi oi-question-mark"></span> Sobre Nós</a>
                 </li>
                 <li @if($current=="eventos")class="nav-item active" @else class="nav-item" @endif>
-                    <a class="nav-link" href="http://lanclub.com.br/lanclub/public/eventos"><span class="oi oi-calendar"></span> Eventos</a>
+                    <a class="nav-link" href="#" onclick="$('.eventos').animatescroll();"><span class="oi oi-calendar"></span> Eventos</a>
                 </li>
                 <li @if($current=="fale_conosco")class="nav-item active" @else class="nav-item" @endif>
-                    <a class="nav-link" href="http://lanclub.com.br/lanclub/public/fale-conosco"><span class="oi oi-chat"></span> Fale Conosco</a>
+                    <a class="nav-link" href="#" onclick="$('.faleconosco').animatescroll();"><span class="oi oi-chat"></span> Fale Conosco</a>
                 </li>
                 <li @if($current=="logar")class="nav-item active" @else class="nav-item" @endif>
                     <a class="nav-link" href="http://lanclub.com.br/lanclub/public/login"><span class="oi oi-person"></span> Logar</a>
